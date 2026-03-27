@@ -1,0 +1,9 @@
+[%autowidth.stretch, cols="h,a"]
+|===
+|Base package
+|`com.example.green.core`
+|Spring components
+|_Services_
+
+* `c.e.g.c.CoreService`
+|===

@@ -1,0 +1,30 @@
+@startuml
+title <size:24>Plant</size>
+
+set separator none
+top to bottom direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Component>
+
+System_Boundary("GreenApplication_boundary", "GreenApplication", $tags="") {
+  Container_Boundary("GreenApplication.GreenApplication_boundary", "GreenApplication", $tags="") {
+    Component(GreenApplication.GreenApplication.Core, "Core", $techn="Module", $descr="", $tags="", $link="")
+    Component(GreenApplication.GreenApplication.Plant, "Plant", $techn="Module", $descr="", $tags="", $link="")
+  }
+
+}
+
+Rel(GreenApplication.GreenApplication.Plant, GreenApplication.GreenApplication.Core, "uses", $techn="", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

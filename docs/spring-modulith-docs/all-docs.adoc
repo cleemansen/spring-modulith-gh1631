@@ -1,0 +1,11 @@
+== GreenApplication
+plantuml::components.puml[,,format=svg]
+
+== Core
+plantuml::module-core.puml[,,format=svg]
+include::module-core.adoc[]
+
+== Plant
+plantuml::module-plant.puml[,,format=svg]
+include::module-plant.adoc[]
+
