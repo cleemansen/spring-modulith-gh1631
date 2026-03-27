@@ -5,6 +5,10 @@ plantuml::components.puml[,,format=svg]
 plantuml::module-core.puml[,,format=svg]
 include::module-core.adoc[]
 
+== Alpha
+plantuml::module-alpha.puml[,,format=svg]
+include::module-alpha.adoc[]
+
 == Plant
 plantuml::module-plant.puml[,,format=svg]
 include::module-plant.adoc[]
