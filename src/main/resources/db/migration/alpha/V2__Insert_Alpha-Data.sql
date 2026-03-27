@@ -1,0 +1,1 @@
+insert into alpha.alpha values (1, 'alpha1', 1);
