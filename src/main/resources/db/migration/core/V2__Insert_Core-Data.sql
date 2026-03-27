@@ -1,0 +1,1 @@
+insert into core.core values (1, 'Main');

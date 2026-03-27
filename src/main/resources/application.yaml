@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: green
+  flyway:
+    locations: classpath:db/migration,classpath:com/example/green
+  modulith:
+    runtime:
+      flyway-enabled: true

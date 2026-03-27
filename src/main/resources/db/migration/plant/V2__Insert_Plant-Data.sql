@@ -1,0 +1,1 @@
+insert into plant.plant values (1, 'plant1', 1);
